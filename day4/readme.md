@@ -685,6 +685,95 @@ Suggested Labs:
 
 ---
 
+
+## 5. Squash Commits & Clean History Practices
+
+---
+
+### What is Squash Commit?
+
+Squash means:
+
+* Combine multiple commits
+* Into single commit
+
+---
+
+### Why Squash?
+
+* Cleaner history
+* Easy rollback
+* Better readability
+
+---
+
+### Example
+
+Before squash:
+
+```
+fix typo
+update UI
+final fix
+```
+
+After squash:
+
+```
+Add login feature
+```
+
+---
+
+### When to Squash
+
+* Before merging PR
+* Feature branch cleanup
+
+---
+
+## 6. Safe Force Push Techniques
+
+---
+
+### What is Force Push?
+
+Force push overwrites remote history.
+
+Command:
+
+```bash
+git push --force
+```
+
+---
+
+### Why Dangerous?
+
+* Deletes others' commits
+* Breaks collaboration
+
+---
+
+### Safe Alternative
+
+Always use:
+
+```bash
+git push --force-with-lease
+```
+
+---
+
+### When Force Push Is Allowed
+
+* Personal feature branch
+* After rebase
+* Never on main branch
+
+---
+
+
 ## End of Day 4 Summary
 
 You should now be able to:
