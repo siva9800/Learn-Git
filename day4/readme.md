@@ -450,6 +450,228 @@ git commit
 
 ---
 
+
+
+# 🔁 Merge vs Rebase – Clear Comparison
+
+Both **merge** and **rebase** are used to integrate changes from one branch into another, but they work in **very different ways**.
+
+---
+
+## What is Merge?
+
+### Definition
+
+Merge combines two branches by creating a **merge commit** that joins both histories.
+
+---
+
+### Command Example
+
+```bash
+git merge feature
+```
+
+(while on main branch)
+
+---
+
+### What Happens Internally
+
+* Git keeps both branch histories
+* Creates a new merge commit
+* Preserves branch structure
+
+---
+
+### Merge History Example
+
+Before merge:
+
+```
+main:    A --- B --- D
+feature:       C
+```
+
+After merge:
+
+```
+main:    A --- B --- D ---- M
+                  \      /
+                   C ----
+```
+
+`M` = merge commit (has two parents)
+
+---
+
+### Characteristics of Merge
+
+* Does NOT rewrite history
+* Safe for shared branches
+* Preserves complete commit timeline
+* Shows exactly when branches were merged
+
+---
+
+### When to Use Merge
+
+Use merge when:
+
+* Working with team branches
+* Merging Pull Requests
+* Updating main branch
+* You want full history visibility
+
+---
+
+## What is Rebase?
+
+---
+
+### Definition
+
+Rebase moves your branch commits **on top of another branch**, creating a **linear history**.
+
+---
+
+### Command Example
+
+```bash
+git rebase main
+```
+
+(while on feature branch)
+
+---
+
+### What Happens Internally
+
+* Feature commits are removed
+* Replayed on top of main
+* New commit IDs are created
+* History becomes straight line
+
+---
+
+### Rebase History Example
+
+Before rebase:
+
+```
+main:    A --- B --- D
+feature:       C
+```
+
+After rebase:
+
+```
+main:    A --- B --- D --- C'
+```
+
+`C'` = new commit (rewritten)
+
+---
+
+### Characteristics of Rebase
+
+* Rewrites commit history
+* Creates clean linear timeline
+* No merge commit
+* Makes history easier to read
+
+---
+
+### When to Use Rebase
+
+Use rebase when:
+
+* Working on personal feature branch
+* Cleaning commit history
+* Preparing branch before PR
+* Branch is not shared
+
+---
+
+## Key Differences Table
+
+| Feature                | Merge  | Rebase |
+| ---------------------- | ------ | ------ |
+| History rewrite        | ❌ No   | ✅ Yes  |
+| Merge commit created   | ✅ Yes  | ❌ No   |
+| Commit IDs change      | ❌ No   | ✅ Yes  |
+| Safe for team branches | ✅ Yes  | ❌ No   |
+| History readability    | Medium | High   |
+| Rollback safety        | High   | Medium |
+
+---
+
+## Safety Rules (Very Important)
+
+### Never Rebase These Branches
+
+```
+main
+develop
+release
+shared branches
+```
+
+---
+
+### Rebase Only These Branches
+
+```
+feature branches
+local branches
+personal branches
+```
+
+---
+
+## Real Industry Usage
+
+### Companies Use Merge For:
+
+* Pull Requests
+* Main branch integration
+* Production merges
+
+---
+
+### Companies Use Rebase For:
+
+* Cleaning feature branch history
+* Syncing feature branch with main
+* Removing unnecessary commits
+
+---
+
+## Interview Answer (Perfect)
+
+Question: Difference between merge and rebase?
+
+Answer:
+
+> Merge preserves branch history by creating a merge commit, while rebase rewrites commit history by replaying commits on top of another branch, creating a linear history.
+
+---
+
+## Simple Memory Trick
+
+Merge = Join histories
+Rebase = Rewrite history
+
+---
+
+## Final Summary
+
+* Merge is safe and preserves history
+* Rebase creates clean history but rewrites commits
+* Use merge for team work
+* Use rebase for personal feature branches
+
+
 ## 15. Practical Demonstrations & Hands-On Labs
 
 Suggested Labs:
