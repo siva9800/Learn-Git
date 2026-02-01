@@ -1,7 +1,3 @@
-Perfect 👍 Here are **clean, trainer-quality Day 1 notes** that you can use for **teaching + sharing with students**.
-They are **concept-focused**, **easy to explain**, and **hands-on aligned**.
-
-You can directly convert this into PDF / slides / markdown notes.
 
 ---
 
