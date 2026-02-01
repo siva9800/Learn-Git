@@ -1,4 +1,3 @@
----
 
 # 📘 Day 2 – Branching & Parallel Development Workflow
 
