@@ -1,7 +1,8 @@
 # Git & GitHub Masterclass – 5 Day Hands-On Training Program
 
 ## Course Overview
-This 5-day hands-on masterclass is designed to build strong Git fundamentals, introduce collaboration workflows, and prepare students for real-world industry usage. The program focuses on practical learning, project-style exercises, and professional development practices used by software teams.
+
+This 5-day hands-on masterclass is designed to build strong Git fundamentals, introduce collaboration workflows, and prepare students for real-world industry usage. The program focuses on practical learning, project-based exercises, and professional development practices used by modern software teams.
 
 ---
 
@@ -9,54 +10,55 @@ This 5-day hands-on masterclass is designed to build strong Git fundamentals, in
 
 After completing this course, you will be able to:
 
-- Understand how Git works internally
-- Track project versions using Git
-- Work with local and remote repositories
-- Use branching strategies for parallel development
-- Handle merge conflicts confidently
+- Understand Git architecture and internal working
+- Track and manage project versions efficiently
+- Work with both local and remote repositories
+- Apply branching strategies for parallel development
+- Resolve merge conflicts confidently
 - Collaborate using GitHub Pull Requests
-- Apply advanced Git commands
+- Use professional Git commands effectively
 - Follow industry-standard Git workflows and best practices
 
 ---
 
 ## Day 1 – Git Fundamentals & Local Repository Basics
 
-This day focuses on building a strong foundation in Git and understanding local version control.
+This day focuses on building a strong foundation in Git and understanding how local version control works.
 
 ### Topics Covered
 
-- What is Version Control System (VCS)
-- Git vs GitHub overview
+- Version Control Systems (VCS) overview
+- Git vs GitHub comparison
 - Distributed version control concept
 - Git installation and environment setup
 - Git architecture (Working Directory, Staging Area, Repository)
-- Initializing repositories
+- Repository initialization
 - Tracking file changes
-- Staging and committing changes
-- Viewing commit history
+- Staging and committing workflow
+- Viewing and analyzing commit history
 - Understanding HEAD and commit references
 - Rolling back to previous versions
 - Undoing changes safely
 
 ### Outcome
 
-Students will understand how Git works internally and confidently manage local repositories.
+Students will understand Git internals and confidently manage local repositories.
 
 ---
 
-## Day 2 – Branching & Parallel Development Concepts
+## Day 2 – Branching & Parallel Development Workflow
 
-This day introduces branching and safe parallel development workflows.
+This day introduces branching concepts and safe parallel development practices.
 
 ### Topics Covered
 
-- What is branching and why it is needed
+- Branching fundamentals and use cases
 - Creating and managing branches
 - Switching between branches
-- Feature branch workflow basics
-- Merging branches into main
-
+- Feature branch workflow
+- Merging feature branches into main
+- Understanding merge strategies
+- Introduction to collaborative development workflow
 
 ### Outcome
 
@@ -66,82 +68,77 @@ Students will be able to work on multiple features simultaneously and merge code
 
 ## Day 3 – Remote Repositories & GitHub Integration
 
-This day focuses on working with remote repositories and connecting Git with GitHub.
+This day focuses on connecting Git with GitHub and managing remote repositories.
 
 ### Topics Covered
 
-- Introduction to remote repositories
-- Connecting local repository to GitHub
-- Remote concepts (origin and upstream)
-- Push, pull and fetch operations
-- Fetch vs pull differences
-- Authentication methods overview (HTTPS and SSH)
+- Remote repository concepts
+- Connecting local repositories to GitHub
+- Understanding origin and upstream remotes
+- Push, pull, and fetch operations
+- Difference between fetch and pull
+- Authentication overview (HTTPS and SSH)
 - Creating and pushing remote branches
 - Updating local branches from remote
 - Synchronizing feature branches with base branch
 
 ### Outcome
 
-Students will be able to work with remote repositories and synchronize local and remote code effectively.
+Students will be able to manage remote repositories and keep local and remote code in sync.
 
 ---
 
-## Day 4 – GitHub Collaboration & Essential Professional Commands
+## Day 4 – Collaboration Workflow & Essential Git Commands
 
-This day focuses on collaboration workflows and important Git commands used in real projects.
+This day focuses on real-world collaboration and commonly used professional Git commands.
 
 ### Topics Covered
 
 - Pull Request (PR) workflow
 - Code review process
 - Fork-based contribution workflow
-- Updating feature branches with latest base branch changes
-- Git stash (temporary work saving)
-- Git stash pop and apply usage
-- Git revert (safe rollback)
+- Updating feature branches with latest base changes
+- Git stash for temporary work management
+- Git revert for safe rollback
+- Git cherry-pick for selective commit transfer
 - Interactive rebase overview
-- Git cherry-pick (selective commit transfer)
 - Handling non-fast-forward errors
-- Common Git errors and recovery basics
-- Fast-forward merge vs normal merge
+- Common Git errors and recovery techniques
+- Fast-forward vs normal merge
 - Merge commits and history visualization
 - Three-way merge concept
-- Introduction to merge conflicts
-- When merge conflicts occur
-- How to resolve conflicts manually
-- Best practices to avoid conflicts
-- Diff between Merge and rebase
-- Demo on the above topics.
+- Merge conflict detection and resolution
+- Best practices for conflict management
+- Practical demonstrations and hands-on labs
 
 ### Outcome
 
-Students will be able to collaborate using GitHub and use essential professional Git commands.
+Students will be able to collaborate using GitHub and apply essential Git commands in team environments.
 
 ---
 
 ## Day 5 – Advanced Git Concepts, Branching Strategies & Industry Best Practices
 
-This day focuses on professional workflows and production-level Git usage.
+This day focuses on production-level Git usage and enterprise workflows.
 
 ### Topics Covered
 
-- Feature branch workflow in teams
+- Team-based feature branch workflows
 - GitHub Flow overview
 - GitFlow branching strategy
-- Release and hotfix branching concepts
-- Rebase vs merge in team environments
-- Squash commits concept
-- Clean commit history practices
-- Safe force push practices
-- Tagging and release versioning concepts
+- Release and hotfix branch management
+- Merge vs rebase strategy comparison
+- Squash commits and clean history practices
+- Safe force push techniques
+- Tagging and release versioning
 - Git usage in CI/CD pipelines
-- Repository hygiene and best practices
-- Collaboration best practices in teams
-- Real-world Git usage patterns in companies
+- Repository maintenance and hygiene
+- Collaboration best practices
+- Real-world Git workflows used in companies
 
 ### Outcome
 
-Students will understand advanced Git workflows and apply industry-level best practices.
+Students will understand advanced Git workflows and apply industry-level best practices in professional projects.
 
 ---
 
@@ -156,12 +153,12 @@ Students will understand advanced Git workflows and apply industry-level best pr
 
 ## Course Methodology
 
-- Concept Explanation
-- Live Demonstrations
-- Hands-on Practice Tasks
-- Real Project Simulations
-- Assignment-Based Learning
-- Industry Workflow Practice
+- Concept-driven teaching
+- Live demonstrations
+- Hands-on lab sessions
+- Real project simulations
+- Assignment-based learning
+- Industry workflow practice
 
 ---
 
@@ -170,11 +167,11 @@ Students will understand advanced Git workflows and apply industry-level best pr
 After completing this training, students will be able to:
 
 - Work confidently with Git and GitHub
-- Collaborate in team environments
+- Collaborate effectively in team environments
 - Apply advanced Git commands
-- Manage branching strategies effectively
+- Manage branching strategies professionally
 - Handle conflicts and rollbacks safely
-- Follow professional development workflows
+- Follow enterprise development workflows
 - Prepare for Git-related technical interviews
 
 ---
